@@ -1,0 +1,94 @@
+body {
+  background-color: #588769;
+  margin: 0px;
+}
+
+.grid {
+  display: grid;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 2vw;
+}
+.grid div {
+  padding: 2vw;
+  margin: 0 0 -1px -1px;
+  border: 1px solid black;
+  transition: all 1.2s ease;
+  background: transparent;
+}
+.grid div:hover {
+  background: linear-gradient(0deg, #ffc552 0%, rgba(0, 0, 0, 0) 75%);
+}
+.grid div:nth-child(1):hover {
+  background: linear-gradient(0deg, #47a278 0%, rgba(0, 0, 0, 0) 75%);
+}
+
+._1x1 {
+  grid-column: auto/span 1;
+  grid-row: auto/span 1;
+}
+
+._1x1 {
+  grid-column: auto/span 1;
+  grid-row: auto/span 1;
+}
+
+._1x2 {
+  grid-column: auto/span 1;
+  grid-row: auto/span 2;
+}
+
+._1x3 {
+  grid-column: auto/span 1;
+  grid-row: auto/span 3;
+}
+
+._2x1 {
+  grid-column: auto/span 2;
+  grid-row: auto/span 1;
+}
+
+._2x2 {
+  grid-column: auto/span 2;
+  grid-row: auto/span 2;
+}
+
+._2x3 {
+  grid-column: auto/span 2;
+  grid-row: auto/span 3;
+}
+
+._3x1 {
+  grid-column: auto/span 3;
+  grid-row: auto/span 1;
+}
+
+._3x2 {
+  grid-column: auto/span 3;
+  grid-row: auto/span 2;
+}
+
+._3x3 {
+  grid-column: auto/span 3;
+  grid-row: auto/span 3;
+}
+
+canvas {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.debug {
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */

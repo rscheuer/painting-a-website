@@ -1,0 +1,23 @@
+{
+  "name": "painting-a-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rscheuer/painting-a-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rscheuer/painting-a-website/issues"
+  },
+  "homepage": "https://github.com/rscheuer/painting-a-website#readme",
+  "dependencies": {
+    "dart-sass": "^1.25.0"
+  }
+}
