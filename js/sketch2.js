@@ -8,8 +8,9 @@ var py = 0;
 var easing = 0.05;
 function setup() {
  createCanvas(w, h);
- stroke(0, 102);
-  // background(150);  
+ stroke(2, 102);
+fill(255)
+  background(150);  
 }
 function draw() {
  var targetX = mouseX;

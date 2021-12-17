@@ -1,6 +1,8 @@
 body{
   background-color: rgb(88, 135, 105);
   margin: 0px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   // transition: background-color .9s ease;
 }
@@ -16,7 +18,7 @@ body{
   div{
     padding: 2vw;
     margin: 0 0 -1px -1px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     transition: all 1.2s ease;
     background: transparent;
 

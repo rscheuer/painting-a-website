@@ -3,10 +3,10 @@ let mouseY;
 
 
 document.addEventListener("mousemove", ()=>{
-  mouseX = event.clientX;
-  mouseY = event.clientY;
+  mX = event.clientX;
+  mY = event.clientY;
   // console.log([mouseX, mouseY])
-  changeBG(mouseX,mouseY)
+  changeBG(mX,mY)
   
 })
 
